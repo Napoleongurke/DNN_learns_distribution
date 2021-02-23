@@ -1,0 +1,5 @@
+matplotlib
+numpy
+tensorflow>=2.0.0a0
+tensorboard
+scipy
