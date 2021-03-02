@@ -38,6 +38,8 @@ If the noise is set to 0, the DNN can perfectly reconstruct the distribution.
 
 ### Much noise
 Reconstruction is not possible since the label is fully superimposed by noise.
+Now the DNN reconstructs only the mean of the target distribution. (This is ALWAYS possible. Basically, only the bias in the last layer is learned.)
+This collapse towards a delta function located at the mean of the target distribution can be observed for a variety of MSE-trained estimators since this configuration has a smaller MSE than a broadened distribution.
 ![Much noise](img/much_noise.png)
 
 
